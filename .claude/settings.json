@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(yml|yaml|config|json\\)$|^d\")",
+      "Bash(php -l app/Config/Routes.php)"
+    ]
+  }
+}

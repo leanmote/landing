@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -n \"function requestDashboardPayload\\\\|$.ajax\\\\|\\\\.abort\\\\|pendingRequest\\\\|jqXHR\" public/js/project-investment/general.js)",
+      "Bash(xargs grep:*)",
+      "Bash(grep -r \"team.ai.loc\\\\|team-ai-loc\\\\|delegated\\\\|assisted.*loc\" c:UsersUsuarioDesktopLeanmotelambdaMETRICS-TESTtests --include=*.py)",
+      "Bash(grep -n \"return \\\\$\\\\|return \\\\[\" /Users/fedesar/Sites/leanmote-slack/app/Controllers/Charts/ChartsFlowMetricsController.php)",
+      "Bash(wc -l /Users/fedesar/Sites/leanmote-slack/.claude/rules/**/*.md /Users/fedesar/Sites/leanmote-slack/.claude/rules/*.md)"
+    ]
+  }
+}
