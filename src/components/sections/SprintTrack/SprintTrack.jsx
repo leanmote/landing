@@ -48,11 +48,8 @@ function SprintTrack() {
     >
       <div className="container">
         <div className="sprint-track__header">
-          <p className="sprint-track__eyebrow">{t('sprintTrack.eyebrow')}</p>
           <SectionTitle as="h2" align="center">
             <span>{t('sprintTrack.title1')}</span>
-            <br />
-            <span>{t('sprintTrack.title2')}</span>
             <br />
             <span className="sprint-track__headline-accent">{t('sprintTrack.titleAccent')}</span>
           </SectionTitle>
