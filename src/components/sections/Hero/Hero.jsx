@@ -104,7 +104,9 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          {t('hero.subtitle')}{' '}
+          {t('hero.subtitleLine1')}
+          <br />
+          {t('hero.subtitleLine2')}{' '}
           <span className="hero__subtitle-emphasis">
             {t('hero.subtitleEmphasis')}
           </span>

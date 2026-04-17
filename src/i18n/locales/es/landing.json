@@ -5,7 +5,8 @@
     "headlineHighlight1": "ingenieros 10x",
     "headlinePrefix2": "a una ",
     "headlineHighlight2": "empresa 10x",
-    "subtitle": "Los equipos de F1 no ganan solo con autos rápidos; ganan con telemetría en tiempo real. Leanmote es el sistema basado en GraphRAG que mapea el ADN de tu equipo para",
+    "subtitleLine1": "Los equipos de F1 no ganan solo con autos rápidos; ganan con telemetría en tiempo real.",
+    "subtitleLine2": "Leanmote es el sistema basado en GraphRAG que mapea el ADN de tu equipo para",
     "subtitleEmphasis": "desbloquear flujos de trabajo, optimizar el ROI de IA y alcanzar una aceleración del 15% trimestre a trimestre.",
     "ctaCommandCenter": "Explorar el Centro de Comando →",
     "ctaAudit": "Iniciar tu Auditoría de Rendimiento →"
