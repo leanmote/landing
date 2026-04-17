@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Slack">
+  <rect x="4" y="13" width="10" height="4" rx="2" fill="#36c5f0"/>
+  <rect x="15" y="4" width="4" height="10" rx="2" fill="#2eb67d"/>
+  <rect x="18" y="15" width="10" height="4" rx="2" fill="#ecb22e"/>
+  <rect x="13" y="18" width="4" height="10" rx="2" fill="#e01e5a"/>
+</svg>

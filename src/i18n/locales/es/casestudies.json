@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "eyebrow": "Historias de éxito de clientes",
+    "title": "Equipos reales. Resultados medibles.",
+    "subtitle": "Descubre cómo las organizaciones de ingeniería usan Leanmote para mejorar la velocidad de entrega, optimizar la eficiencia de flujo y demostrar el ROI con evidencia operacional."
+  },
+  "card": {
+    "explorePricing": "Explorar planes de precios"
+  },
+  "studies": [
+    {
+      "headline": "Vita Wallet redujo el lead time de entrega un 24% y desbloqueó $125k de ahorro anual.",
+      "description": "El equipo entregaba con alto trabajo en progreso y bajo enfoque de flujo. Con Leanmote, identificaron carriles de revisión sobrecargados, redujeron las tareas activas e hicieron los traspasos más predecibles.",
+      "metrics": [
+        { "label": "Reducción de Lead Time", "detail": "46 -> 37 días" },
+        { "label": "Productividad del Equipo", "detail": "Mayor enfoque por sprint" },
+        { "label": "Ahorro Anual", "detail": "Costo estimado de ingenieros" }
+      ],
+      "quote": "Leanmote hizo visible el cuello de botella en menos de un sprint. Redujimos la presión del WIP y recuperamos el ritmo de entrega sin aumentar el headcount.",
+      "author": "Engineering Lead"
+    },
+    {
+      "headline": "Gauss Control aceleró el lead time de cambios un 37% y ahorró $270k por año.",
+      "description": "Los ciclos de revisión lentos y la carga de trabajo desigual retrasaban los releases. Leanmote destacó los pull requests envejecidos y el desequilibrio de colas para que el equipo pudiera optimizar la propiedad y los tiempos de respuesta de revisión.",
+      "metrics": [
+        { "label": "Reducción de Lead Time", "detail": "6.0 -> 3.8 días" },
+        { "label": "Eficiencia de Flujo", "detail": "Menos tiempo en estado de espera" },
+        { "label": "Ahorro Anual", "detail": "Impacto estimado de ingeniería" }
+      ],
+      "quote": "Pasamos de la intuición a la evidencia. Las recomendaciones fueron prácticas y el tiempo de revisión cayó casi a la mitad en un solo trimestre.",
+      "author": "CTO"
+    },
+    {
+      "headline": "Holon Software redujo el tiempo de ciclo un 55% mientras aumentaba la consistencia de despliegues.",
+      "description": "A medida que la demanda de producto creció, la varianza del tiempo de ciclo comenzó a dañar la confianza en el roadmap. Leanmote expuso bloqueadores recurrentes en las etapas de revisión y pickup, permitiendo una planificación de sprints más ajustada y una recogida de PRs más rápida.",
+      "metrics": [
+        { "label": "Reducción del Tiempo de Ciclo", "detail": "20 -> 9 días" },
+        { "label": "Frecuencia de Despliegue", "detail": "Cadencia de releases más estable" },
+        { "label": "Ahorro Anual", "detail": "Ganancias de eficiencia estimadas" }
+      ],
+      "quote": "La mayor victoria fue la predictibilidad. Ahora detectamos la deriva temprano, reequilibramos las tareas más rápido y mantenemos el trabajo de alta prioridad fluyendo con menos retrasos.",
+      "author": "Director of Engineering"
+    }
+  ]
+}

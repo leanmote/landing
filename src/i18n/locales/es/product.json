@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "eyebrow": "Para CTOs y líderes de ingeniería",
+    "title": "El Centro de Comando Estratégico ",
+    "titleAccent": "del CTO",
+    "description": "Deja de defender tu presupuesto. Empieza a demostrar tu impacto.",
+    "descriptionRest": " Leanmote es una plataforma de inteligencia de ingeniería que va más allá de los dashboards estáticos hacia",
+    "descriptionItalic": " la potenciación agéntica de decisiones.",
+    "ctaPrimary": "Iniciar tu auditoría gratuita",
+    "ctaSecondary": "Ver demo de 2 min"
+  },
+  "cockpit": {
+    "eyebrow": "El Cockpit Ejecutivo",
+    "title1": "Transforma la ingeniería de una ",
+    "titleAccent": "caja negra",
+    "title2": " en un ",
+    "titleItalic": "motor de valor",
+    "description": "Una pantalla que vincula asignación, predictibilidad, rendimiento y capacidad — para que puedas justificar cada headcount con evidencia operacional.",
+    "overviewTitle": "Vista Estratégica",
+    "overviewSubtitle": "Objetivos de Ingeniería Q4",
+    "statusOnTrack": "● 3 en camino",
+    "statusAtRisk": "● 1 en riesgo",
+    "okrTitle": "Progreso de OKRs",
+    "investTitle": "Mix de Inversión",
+    "investSubtitle": "A dónde va el tiempo de ingeniería",
+    "teamTitle": "Rendimiento de Equipos",
+    "teamSubtitle": "Velocidad y predictibilidad por equipo",
+    "legendHigh": "Alto",
+    "legendMedium": "Medio",
+    "legendLow": "Necesita atención",
+    "insightTitle": "Insight Clave",
+    "insightBody": "La predictibilidad del equipo Mobile cayó un 15% este sprint. Causa raíz: 3 parches de seguridad no planificados absorbieron el 28% de la capacidad.",
+    "insightLink": "Ver análisis"
+  },
+  "knowledgeGraph": {
+    "eyebrow": "El Grafo de Conocimiento",
+    "title1": "No solo veas el ",
+    "titleAccent": "qué",
+    "title2": " — entiende el ",
+    "titleItalic": "por qué",
+    "description": "Leanmote conecta Jira, Git y señales de colaboración en un único modelo causal. Detecta la cadena de dependencias exacta detrás de cada retraso, en tiempo real.",
+    "alertsTitle": "Alertas de Colaboración",
+    "critical": "crítico",
+    "statCritical": "Crítico",
+    "statWarnings": "Avisos",
+    "statInfo": "Info",
+    "statActions": "Acciones",
+    "resolveBtn": "Resolver",
+    "aiInsightsTitle": "Insights IA",
+    "aiInsightsBody": "Los ciclos de aprobación entre Ingeniería y Diseño están generando retrasos en cascada. Considera flujos paralelos en lugar de revisiones secuenciales.",
+    "viewAnalysis": "Ver Análisis",
+    "applyFix": "Aplicar Solución",
+    "collapse": "Contraer",
+    "expand": "Expandir"
+  },
+  "agenticWorkflows": {
+    "eyebrow": "Flujos de Trabajo Agénticos",
+    "newBadge": "★ Nuevo",
+    "title1": "De ",
+    "titleAccent": "dashboards",
+    "title2": " a ",
+    "titleItalic": "decisiones",
+    "description": "Otras herramientas te dejan las correcciones a ti. Los flujos de trabajo agénticos de Leanmote asisten activamente en la toma de decisiones — enrutando trabajo, simulando impacto y cerrando el ciclo automáticamente.",
+    "plansLabel": "Planes de acción generados por IA",
+    "affectedTeams": "Equipos afectados",
+    "resolutionSteps": "Pasos de resolución sugeridos por IA",
+    "sheldonAgent": "Agente IA Sheldon",
+    "confidence": "% de confianza",
+    "applyBtn": "Aplicar",
+    "regenerateBtn": "Regenerar plan",
+    "simulateBtn": "Simular impacto",
+    "executeBtn": "Ejecutar todo",
+    "statLabel": "menos sobrecarga de gestión manual con flujos agénticos",
+    "highlights": [
+      {
+        "title": "Planes de acción automatizados",
+        "description": "Cuando se detecta un cuello de botella, Leanmote genera \"recetas\" personalizadas para resolverlo — no solo alertas."
+      },
+      {
+        "title": "Potenciación de decisiones MCP",
+        "description": "Simula el impacto de los cambios de recursos antes de implementarlos. Ve el futuro antes de que ocurra."
+      },
+      {
+        "title": "Alertas tempranas",
+        "description": "Detección de burnout y silos impulsada por IA, con sugerencias de redistribución guiadas por agentes."
+      }
+    ]
+  },
+  "impactDashboard": {
+    "eyebrow": "Dashboard de Impacto IA",
+    "title": "Demuestra tu inversión en IA con ",
+    "titleItalic": "evidencia operacional",
+    "description": "Muchos equipos compran herramientas de codificación IA. Pocos pueden traducir el uso en resultados de negocio medibles. Leanmote establece la línea base — y rastrea cada dólar ahorrado.",
+    "dashboardTitle": "Dashboard de Impacto IA",
+    "lastUpdated": "Última actualización: hace 2 minutos",
+    "allHealthy": "Todos los sistemas funcionan correctamente",
+    "benchmarksTitle": "Benchmarks vs. equipos de élite",
+    "benchmarksSubtitle": "Basado en el dataset DORA 2024",
+    "productivityIndex": "Índice de productividad",
+    "last30Days": "Últimos 30 días · +48%",
+    "eliteTarget": "Objetivo élite"
+  }
+}

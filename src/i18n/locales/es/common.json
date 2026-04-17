@@ -1,0 +1,42 @@
+{
+  "nav": {
+    "links": [
+      { "label": "Producto", "href": "/product" },
+      { "label": "¿Para quién es?", "href": "/who-is-it-for" },
+      { "label": "Casos de éxito", "href": "/case-studies" },
+      { "label": "Precios", "href": "/pricing" }
+    ],
+    "requestDemo": "Solicitar demo",
+    "signUp": "Registrarse"
+  },
+  "footer": {
+    "tagline": "Convierte señales de ingeniería en control de carrera.",
+    "copyright": "© 2026 Leanmote. Todos los derechos reservados.",
+    "columns": [
+      {
+        "title": "Producto",
+        "links": [
+          { "label": "Funciones", "href": "#features" },
+          { "label": "Seguridad", "href": "#security" },
+          { "label": "Integraciones", "href": "#integrations" },
+          { "label": "Precios", "href": "/pricing" }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "links": [
+          { "label": "Nosotros", "href": "#about" },
+          { "label": "Empleos", "href": "#careers" },
+          { "label": "Contacto", "href": "#contact" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacidad", "href": "#privacy" },
+          { "label": "Términos", "href": "#terms" }
+        ]
+      }
+    ]
+  }
+}

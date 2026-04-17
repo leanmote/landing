@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "eyebrow": "Customer success stories",
+    "title": "Real teams. Measurable outcomes.",
+    "subtitle": "Explore how engineering organizations use Leanmote to improve delivery speed, tighten flow efficiency, and prove ROI with operational evidence."
+  },
+  "card": {
+    "explorePricing": "Explore pricing plans"
+  },
+  "studies": [
+    {
+      "headline": "Vita Wallet cut delivery lead time by 24% and unlocked $125k yearly savings.",
+      "description": "The team was shipping with high work-in-progress and low flow focus. With Leanmote, they identified overloaded review lanes, reduced active tasks, and made handoffs more predictable.",
+      "metrics": [
+        { "label": "Lead Time Reduction", "detail": "46 -> 37 days" },
+        { "label": "Team Productivity", "detail": "Higher focus per sprint" },
+        { "label": "Annual Savings", "detail": "Estimated engineer cost" }
+      ],
+      "quote": "Leanmote made the bottleneck visible in less than one sprint. We reduced WIP pressure and recovered delivery rhythm without increasing headcount.",
+      "author": "Engineering Lead"
+    },
+    {
+      "headline": "Gauss Control accelerated change lead time by 37% and saved $270k per year.",
+      "description": "Slow review loops and uneven workload were delaying releases. Leanmote highlighted aging pull requests and queue imbalance so the team could optimize ownership and review response times.",
+      "metrics": [
+        { "label": "Lead Time Reduction", "detail": "6.0 -> 3.8 days" },
+        { "label": "Flow Efficiency", "detail": "Less wait-state time" },
+        { "label": "Annual Savings", "detail": "Estimated engineering impact" }
+      ],
+      "quote": "We shifted from intuition to evidence. The recommendations were practical, and review turnaround dropped almost by half in a single quarter.",
+      "author": "CTO"
+    },
+    {
+      "headline": "Holon Software reduced cycle time by 55% while increasing deployment consistency.",
+      "description": "As product demand grew, cycle time variance started hurting roadmap confidence. Leanmote surfaced recurring blockers in review and pickup stages, enabling tighter sprint planning and faster PR pickup.",
+      "metrics": [
+        { "label": "Cycle Time Reduction", "detail": "20 -> 9 days" },
+        { "label": "Deployment Frequency", "detail": "More stable release cadence" },
+        { "label": "Annual Savings", "detail": "Estimated efficiency gains" }
+      ],
+      "quote": "The biggest win was predictability. We now detect drift early, rebalance tasks faster, and keep high-priority work flowing with fewer delays.",
+      "author": "Director of Engineering"
+    }
+  ]
+}

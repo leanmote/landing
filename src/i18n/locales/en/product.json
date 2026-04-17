@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "eyebrow": "For CTOs and engineering leaders",
+    "title": "The CTO's Strategic ",
+    "titleAccent": "Command Center",
+    "description": "Stop defending your budget. Start proving your impact.",
+    "descriptionRest": " Leanmote is an engineering intelligence platform that moves beyond static dashboards into",
+    "descriptionItalic": " agentic decision augmentation.",
+    "ctaPrimary": "Start your free audit",
+    "ctaSecondary": "Watch 2-min demo"
+  },
+  "cockpit": {
+    "eyebrow": "The Executive Cockpit",
+    "title1": "Turn engineering from a ",
+    "titleAccent": "black box",
+    "title2": " into a ",
+    "titleItalic": "value engine",
+    "description": "One screen linking allocation, predictability, throughput and capacity — so you can justify every headcount with operational evidence.",
+    "overviewTitle": "Strategic Overview",
+    "overviewSubtitle": "Q4 Engineering Objectives",
+    "statusOnTrack": "● 3 on track",
+    "statusAtRisk": "● 1 at risk",
+    "okrTitle": "OKR Progress",
+    "investTitle": "Investment Mix",
+    "investSubtitle": "Where engineering time goes",
+    "teamTitle": "Team Performance",
+    "teamSubtitle": "Velocity & predictability by team",
+    "legendHigh": "High",
+    "legendMedium": "Medium",
+    "legendLow": "Needs attention",
+    "insightTitle": "Key Insight",
+    "insightBody": "Mobile team predictability dropped 15% this sprint. Root cause: 3 unplanned security patches absorbed 28% of capacity.",
+    "insightLink": "View analysis"
+  },
+  "knowledgeGraph": {
+    "eyebrow": "The Knowledge Graph",
+    "title1": "Don't just see the ",
+    "titleAccent": "what",
+    "title2": " — understand the ",
+    "titleItalic": "why",
+    "description": "Leanmote connects Jira, Git and collaboration signals into one causal model. Spot the exact dependency chain behind every delay, in real time.",
+    "alertsTitle": "Collaboration Alerts",
+    "critical": "critical",
+    "statCritical": "Critical",
+    "statWarnings": "Warnings",
+    "statInfo": "Info",
+    "statActions": "Actions",
+    "resolveBtn": "Resolve",
+    "aiInsightsTitle": "AI Insights",
+    "aiInsightsBody": "Engineering and Design approval loops are creating cascading delays. Consider parallel workflows instead of sequential reviews.",
+    "viewAnalysis": "View Analysis",
+    "applyFix": "Apply Fix",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "agenticWorkflows": {
+    "eyebrow": "Agentic Workflows",
+    "newBadge": "★ New",
+    "title1": "From ",
+    "titleAccent": "dashboards",
+    "title2": " to ",
+    "titleItalic": "decisions",
+    "description": "Other tools leave the fixing to you. Leanmote's agentic workflows actively assist in decision-making — routing work, simulating impact, and closing the loop automatically.",
+    "plansLabel": "AI-generated action plans",
+    "affectedTeams": "Affected teams",
+    "resolutionSteps": "AI-suggested resolution steps",
+    "sheldonAgent": "Sheldon AI Agent",
+    "confidence": "% confidence",
+    "applyBtn": "Apply",
+    "regenerateBtn": "Regenerate plan",
+    "simulateBtn": "Simulate impact",
+    "executeBtn": "Execute all",
+    "statLabel": "less manual management overhead with agentic workflows",
+    "highlights": [
+      {
+        "title": "Automated action plans",
+        "description": "When a bottleneck is detected, Leanmote generates tailored \"recipes\" to resolve it — not just alerts."
+      },
+      {
+        "title": "MCP decision augmentation",
+        "description": "Simulate the impact of resource shifts before you make them. See the future before it happens."
+      },
+      {
+        "title": "Early warnings",
+        "description": "AI-driven burnout and silo detection, with agent-led suggestions for redistribution."
+      }
+    ]
+  },
+  "impactDashboard": {
+    "eyebrow": "AI Impact Dashboard",
+    "title": "Prove your AI investment with ",
+    "titleItalic": "operational evidence",
+    "description": "Many teams buy AI coding tools. Few can translate usage into measurable business outcomes. Leanmote establishes the baseline — and tracks every dollar saved.",
+    "dashboardTitle": "AI Impact Dashboard",
+    "lastUpdated": "Last updated: 2 minutes ago",
+    "allHealthy": "All systems healthy",
+    "benchmarksTitle": "Benchmarks vs. Elite teams",
+    "benchmarksSubtitle": "Based on DORA 2024 dataset",
+    "productivityIndex": "Productivity index",
+    "last30Days": "Last 30 days · +48%",
+    "eliteTarget": "Elite target"
+  }
+}

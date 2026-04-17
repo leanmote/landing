@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "eyebrow": "Role-based intelligence",
+    "title": "Who is Leanmote for?",
+    "subtitle": "A holistic measurement system for every role in your engineering organization, from leadership strategy to day-to-day execution."
+  },
+  "framework": {
+    "title": "The ",
+    "titleItalic": "Holistic",
+    "titleEnd": " Measurement System",
+    "subtitle": "Inspired by enterprise-wide change frameworks, Leanmote measures what matters at every layer.",
+    "footnote": "Adapted from McKinsey social sector impact framework.",
+    "layers": [
+      {
+        "title": "North Star Goal",
+        "items": [
+          "Multiple of cost per PR and ACU cost across all PRs over a selected timeframe",
+          "Percent of reinvestment in greenfield and brownfield development"
+        ]
+      },
+      {
+        "title": "Economic Outcomes",
+        "items": [
+          "Time to revenue target through backlog acceleration",
+          "Dollar impact per new feature delivered by new teams",
+          "Per-team cost reduction from leaner delivery structures"
+        ]
+      },
+      {
+        "title": "Outcomes",
+        "items": ["Velocity", "Capacity", "Security", "Quality", "Resiliency"]
+      },
+      {
+        "title": "Outputs",
+        "items": [
+          "Breadth and depth of adoption",
+          "Number of people upskilled",
+          "Developer NPS and attrition trend"
+        ]
+      },
+      {
+        "title": "Inputs",
+        "items": [
+          "Investment in AI coding and developer tooling",
+          "Time and budget invested in upskilling programs",
+          "Change-management and operating model investment"
+        ]
+      }
+    ]
+  },
+  "personas": [
+    {
+      "role": "CTO / VP Engineering",
+      "painHeadline": "Justify every dollar of your AI and engineering investment.",
+      "description": "You need to prove ROI to leadership, not just present dashboards. Leanmote gives you economic language such as cost-per-impact-unit, throughput dividends, and reclaimed capacity to connect engineering work with business outcomes.",
+      "benefits": [
+        "System-level ROI visibility across all teams",
+        "Cost-per-PR and ACU tracking for board reporting",
+        "Reinvestment signals for greenfield and brownfield work"
+      ],
+      "metricLabel": "potential ROI"
+    },
+    {
+      "role": "Engineering Manager / Team Lead",
+      "painHeadline": "Stop spending 14 hours a week playing detective.",
+      "description": "Manual investigation, status syncs, and gut-feel prioritization drain your week. Leanmote highlights bottlenecks in real-time and helps route work so you can lead execution instead of chasing blockers.",
+      "benefits": [
+        "Real-time bottleneck detection across squads",
+        "Automated PR routing and smart task assignment",
+        "Burnout and developer-experience early warnings"
+      ],
+      "metricLabel": "per week reclaimed"
+    },
+    {
+      "role": "Product Manager",
+      "painHeadline": "Predict delivery timelines you can actually trust.",
+      "description": "Cross-team dependencies, hidden blockers, and optimistic estimates can derail roadmaps. Leanmote maps dependency context and improves sprint planning with real velocity and capacity signals.",
+      "benefits": [
+        "Dependency mapping across teams and streams",
+        "Sprint intelligence grounded in actual velocity",
+        "Feature throughput predictions by system capacity"
+      ],
+      "metricLabel": "faster planning"
+    },
+    {
+      "role": "Developer / IC",
+      "painHeadline": "Ship code, not status updates.",
+      "description": "Rework loops, review wait times, and context switching kill productivity. Leanmote reduces handoff friction with load-aware reviewer routing and smarter assignment based on flow state.",
+      "benefits": [
+        "PR routing based on expertise and current load",
+        "Automated first-pass review and documentation support",
+        "Task assignment that respects flow and focus time"
+      ],
+      "metricLabel": "throughput increase"
+    }
+  ]
+}

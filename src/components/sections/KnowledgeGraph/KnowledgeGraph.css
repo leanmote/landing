@@ -1,0 +1,437 @@
+/* KnowledgeGraph — GraphRAG live telemetry & bottleneck view */
+
+.kgraph {
+  padding-block: var(--space-20);
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+/* ---- Header ---- */
+.kgraph__header {
+  text-align: center;
+  max-width: 1080px;
+  margin-inline: auto;
+  margin-bottom: var(--space-10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.kgraph__header .kgraph__subtitle {
+  max-width: 1000px;
+}
+
+.kgraph__eyebrow {
+  font-family: var(--font-family-mono);
+  font-size: 0.72rem;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-accent);
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.kgraph__title-accent {
+  color: var(--color-brand);
+  text-shadow: 0 0 24px rgba(64, 211, 144, 0.35);
+}
+
+.kgraph__subtitle {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-relaxed);
+}
+
+/* ---- Features row (above the graph) ---- */
+.kgraph__features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-6);
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--space-10) 0;
+}
+
+.kgraph__feature {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  background-color: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--color-border);
+}
+
+.kgraph__feature-icon {
+  flex: 0 0 auto;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  background-color: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: var(--color-brand);
+}
+
+.kgraph__feature-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.kgraph__feature-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+  min-width: 0;
+}
+
+.kgraph__feature-title {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  line-height: var(--line-height-tight);
+}
+
+.kgraph__feature-desc {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: var(--line-height-relaxed);
+}
+
+/* ---- Card ---- */
+.kgraph__card {
+  position: relative;
+  width: 100%;
+  height: 720px;
+  background-color: #0f172a;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  isolation: isolate;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.45),
+    0 0 60px rgba(27, 132, 255, 0.08);
+}
+
+/* ---- Toolbar ---- */
+.kgraph__toolbar {
+  position: absolute;
+  top: var(--space-5);
+  right: var(--space-5);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-3);
+}
+
+.kgraph__zoom-group {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.kgraph__zoom-btn {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: var(--radius-full);
+  background-color: #1e293b;
+  color: var(--color-text-subtle);
+  border: 1px solid var(--color-border);
+  transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}
+
+.kgraph__zoom-btn:hover {
+  color: var(--color-text);
+  background-color: #27324a;
+  transform: translateY(-1px);
+}
+
+.kgraph__zoom-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.kgraph__live-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 8px 18px;
+  border-radius: var(--radius-full);
+  background-color: #1e293b;
+  color: var(--color-cyan);
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  font-family: var(--font-family-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.18);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kgraph__live-btn:hover {
+  background-color: rgba(8, 51, 68, 0.6);
+  box-shadow: 0 0 22px rgba(34, 211, 238, 0.32);
+}
+
+.kgraph__live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-cyan);
+  box-shadow: 0 0 10px var(--color-cyan);
+  animation: kgraph-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes kgraph-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%      { opacity: 0.45; transform: scale(0.7); }
+}
+
+/* ---- Legend ---- */
+.kgraph__legend {
+  position: absolute;
+  top: var(--space-5);
+  left: var(--space-5);
+  z-index: 20;
+  width: 180px;
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background-color: rgba(30, 41, 59, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.kgraph__legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.kgraph__legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-full);
+  border: 2px solid var(--legend-color, transparent);
+  box-shadow: 0 0 8px var(--legend-color, transparent);
+  background-color: transparent;
+}
+
+.kgraph__legend-label {
+  font-family: var(--font-family-mono);
+  font-size: 0.72rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-muted);
+  letter-spacing: 0.04em;
+}
+
+/* ---- Canvas / SVG ---- */
+.kgraph__canvas {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-origin: center;
+  transform: scale(var(--kg-zoom, 1));
+  transition: transform 0.25s ease;
+}
+
+.kgraph__svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+/* ---- Badges rendered inside <foreignObject> ---- */
+.kgraph__time-badge {
+  display: inline-block;
+  padding: 2px 6px;
+  background-color: #1e293b;
+  border: 1px solid #f59e0b;
+  border-radius: 4px;
+  color: #f59e0b;
+  font-family: var(--font-family-mono);
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  margin-inline: auto;
+  width: fit-content;
+  box-shadow: 0 0 8px rgba(245, 158, 11, 0.28);
+}
+
+.kgraph__pct-badge {
+  font-family: var(--font-family-mono);
+  font-size: 9px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2;
+  padding: 1px 4px;
+}
+
+.kgraph__pct-badge--bottleneck { color: var(--color-node-bottleneck); }
+.kgraph__pct-badge--healthy { color: var(--color-node-repo); }
+
+.kgraph__ai-badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background-color: rgba(16, 185, 129, 0.18);
+  border: 1px solid var(--color-node-repo);
+  color: var(--color-node-repo);
+  font-family: var(--font-family-mono);
+  font-size: 9px;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+/* ---- Rotating bottleneck alert ---- */
+.kgraph__alert {
+  position: absolute;
+  bottom: var(--space-5);
+  right: var(--space-5);
+  z-index: 25;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  max-width: 320px;
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  background-color: rgba(15, 23, 42, 0.96);
+  border: 1px solid rgba(239, 68, 68, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, 0.55),
+    0 0 24px rgba(239, 68, 68, 0.28);
+}
+
+.kgraph__alert-icon {
+  flex: 0 0 auto;
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-sm);
+  background-color: rgba(239, 68, 68, 0.18);
+  border: 1px solid rgba(239, 68, 68, 0.45);
+  color: #ef4444;
+}
+
+.kgraph__alert-icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.kgraph__alert-body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.kgraph__alert-title {
+  font-family: var(--font-family-display);
+  font-size: 0.95rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  line-height: var(--line-height-tight);
+}
+
+.kgraph__alert-desc {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  line-height: var(--line-height-normal);
+}
+
+.kgraph__alert-btn {
+  align-self: flex-start;
+  margin-top: var(--space-1);
+  padding: 6px 14px;
+  border-radius: var(--radius-sm);
+  background-color: #ef4444;
+  color: #ffffff;
+  font-family: var(--font-family-mono);
+  font-size: 0.72rem;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-shadow: 0 4px 14px rgba(239, 68, 68, 0.45);
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.kgraph__alert-btn:hover {
+  background-color: #dc2626;
+  transform: translateY(-1px);
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 1199px) {
+  .kgraph__card {
+    height: 640px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .kgraph__features {
+    grid-template-columns: 1fr;
+    gap: var(--space-4);
+  }
+
+  .kgraph__card {
+    height: 560px;
+  }
+
+  .kgraph__alert {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .kgraph {
+    padding-block: var(--space-16);
+  }
+
+  .kgraph__card {
+    height: 480px;
+  }
+
+  .kgraph__legend {
+    width: 150px;
+    padding: var(--space-3);
+    gap: var(--space-2);
+  }
+
+  .kgraph__legend-label {
+    font-size: 0.66rem;
+  }
+
+  .kgraph__live-btn {
+    padding: 6px 12px;
+    font-size: 0.7rem;
+  }
+
+  .kgraph__zoom-btn {
+    width: 30px;
+    height: 30px;
+  }
+
+  .kgraph__alert {
+    left: var(--space-4);
+    right: var(--space-4);
+    bottom: var(--space-4);
+    max-width: none;
+  }
+}

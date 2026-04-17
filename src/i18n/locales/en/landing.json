@@ -1,0 +1,202 @@
+{
+  "hero": {
+    "badge": "GraphRAG System-Level Intelligence",
+    "headlinePrefix1": "From ",
+    "headlineHighlight1": "10x Engineers",
+    "headlinePrefix2": "to a ",
+    "headlineHighlight2": "10x Company",
+    "subtitle": "F1 teams don't win with just fast cars; they win with real-time telemetry. Leanmote is the GraphRAG-powered system that maps your team's DNA to",
+    "subtitleEmphasis": "unblock workflows, optimize AI ROI, and reach 15% Q-on-Q acceleration.",
+    "ctaCommandCenter": "Explore the Command Center →",
+    "ctaAudit": "Start Your Performance Audit →"
+  },
+  "subscribeCta": {
+    "heading": "Ready to see your team clearly?",
+    "desc": "Subscribe for exclusive updates and be the first to try Leanmote.",
+    "perk1": "No installation, no credit card",
+    "perk2": "Slack in less than 2 minutes",
+    "perk3": "Free early access",
+    "emailLabel": "Work email",
+    "emailPlaceholder": "Enter your work email",
+    "submitBtn": "Subscribe →",
+    "finePrint": "We respect your privacy. Unsubscribe at any time."
+  },
+  "f1Engine": {
+    "eyebrow": "OPERATIONAL VISIBILITY",
+    "title1": "You bought an F1 engine.",
+    "title2": "Then gave your driver ",
+    "titleAccent": "no dashboard.",
+    "subtitle": "Most engineering leaders are trapped in project-level firefighting. Elite teams manage the system itself.",
+    "without": {
+      "title": "The Old Way",
+      "subtitle": "SEQUENTIAL & MANUAL",
+      "items": [
+        {
+          "title": "The Meeting Trap",
+          "description": "CTOs spend hours in \"status update\" loops trying to find bottlenecks manually.",
+          "metricLabel": "Avg",
+          "metricValue": "60-min sync / week"
+        },
+        {
+          "title": "7-Day Root Cause Search",
+          "description": "By the time you find the blocker, the sprint is already derailed.",
+          "metricLabel": "Latency",
+          "metricValue": "High"
+        },
+        {
+          "title": "AI Investment Blindness",
+          "description": "Buying Copilot seats without knowing if they actually speed up delivery.",
+          "metricLabel": "ROI",
+          "metricValue": "Unknown"
+        }
+      ]
+    },
+    "with": {
+      "title": "The F1 Way",
+      "subtitle": "AGENTIC & SYSTEMIC",
+      "items": [
+        {
+          "title": "Instant Bottleneck ID",
+          "description": "Leanmote identifies the exact blocker in seconds, not hours.",
+          "metricLabel": "Meeting time reclaimed",
+          "metricValue": "100%",
+          "badge": "SOLVED < 2s"
+        },
+        {
+          "title": "GraphRAG Context",
+          "description": "Understand the full dependency chain. Fix the system, not just the symptom.",
+          "metricLabel": "Resolution",
+          "metricValue": "System-Level"
+        },
+        {
+          "title": "Agentic Resolution",
+          "description": "Autonomous re-routing of work to clear gridlocks without human intervention.",
+          "metricLabel": "Action",
+          "metricValue": "Automated"
+        }
+      ]
+    }
+  },
+  "sprintTrack": {
+    "eyebrow": "THE SPRINT LIFECYCLE",
+    "title1": "Your sprint as an F1 race.",
+    "titleAccent": "Leanmote is the pit wall.",
+    "subtitle": "Agentic orchestration from Day 1 to Day 7 — delivery, telemetry, oversight.",
+    "without": {
+      "switchLabel": "Without Leanmote",
+      "title": "The Bottleneck Cycle",
+      "subtitle": "Manual syncs. Invisible friction. Telemetry arrives after the damage is done."
+    },
+    "with": {
+      "switchLabel": "With Leanmote",
+      "title": "F1 Precision",
+      "subtitle": "Agentic orchestration end-to-end. Live telemetry. The pit wall is in."
+    }
+  },
+  "security": {
+    "eyebrow1": "SECURITY-FIRST ARCHITECTURE",
+    "title1": "Your code never leaves ",
+    "titleAccent1": "your infrastructure.",
+    "desc1": "We built Leanmote with a \"Security First\" architecture. We process metadata, never source code.",
+    "eyebrow2": "PLATFORM AGNOSTIC",
+    "title2": "Connects to your entire toolchain ",
+    "titleAccent2": "in 2 minutes",
+    "desc2": "No workflow changes required. We integrate with GitHub, GitLab, Jira, Linear, Slack, PagerDuty, and 50+ other tools to extract insights instantly.",
+    "cards": [
+      {
+        "title": "SOC2 Type II Certified",
+        "description": "Independently audited security controls. We hold data the way your audit team needs."
+      },
+      {
+        "title": "Read-Only Access",
+        "description": "We pull metadata we need. We never write to your repos or tooling."
+      },
+      {
+        "title": "Zero-Retention Policy",
+        "description": "Your source code is processed, never stored. Only the insights leave the tunnel."
+      }
+    ]
+  },
+  "knowledgeGraph": {
+    "eyebrow": "LIVE TELEMETRY & BOTTLENECK ANALYSIS",
+    "titlePart1": "GraphRAG: ",
+    "titleAccent": "AI Impact Diagnostic",
+    "subtitle": "Standard tools see tickets; we see the Telemetry. Our Knowledge Graph identifies why Olivia is blocked across 3 projects or why an API endpoint is causing 14h of drag—and then gives you the 'Resolve' button.",
+    "liveBtn": "Real-Time",
+    "alertBtn": "Resolve Alert",
+    "features": [
+      {
+        "title": "Cross-Repo Dependency Mapping",
+        "desc": "Visualize how changes in one service impact others instantly."
+      },
+      {
+        "title": "AI Agent Collaboration",
+        "desc": "Track how Cursor and Copilot are actually impacting code velocity."
+      },
+      {
+        "title": "Human-in-the-Loop Telemetry",
+        "desc": "Identify burnout risk and knowledge silos before they break the team."
+      }
+    ],
+    "alerts": [
+      { "title": "Bottleneck Detected", "desc": "API Endpoint is causing 14h drag on Frontend Team." },
+      { "title": "Bottleneck Detected", "desc": "Code Review is causing 8h drag on Backend Team." },
+      { "title": "Bottleneck Detected", "desc": "CI Pipeline is causing 8h drag on Test Suite." },
+      { "title": "Bottleneck Detected", "desc": "Test Suite is blocking Mobile release by 3h." }
+    ],
+    "legend": [
+      { "label": "Teams" },
+      { "label": "Repos" },
+      { "label": "Bottlenecks" },
+      { "label": "Warnings" },
+      { "label": "AI Tools" }
+    ]
+  },
+  "roiCalculator": {
+    "eyebrow": "ROI CALCULATOR",
+    "title1": "See your ",
+    "titleHighlight": "savings",
+    "title2": " in numbers.",
+    "subtitle": "Calculate your potential annual savings and return on investment.",
+    "inputsTitle": "TELEMETRY_INPUT_MODEL",
+    "engineersLabel": "Engineering Nodes",
+    "volumeLabel": "System Impact Volume",
+    "volumeTooltipTitle": "Impact Units",
+    "volumeTooltipBody": "Merged Pull Requests + Closed Tasks. This measures your team's actual output velocity.",
+    "volumeHelp": "(Merged PRs + Closed Tasks / Mo)",
+    "costLabel": "Avg Annual Resource Cost",
+    "costTooltipTitle": "Global Benchmarks",
+    "costTooltipBody": "Supports global team benchmarks, including LatAm tech hubs (starting at $30k) and US-standard rates. The hourly rate is derived as Annual Cost ÷ 2,080 working hours.",
+    "dragLabel": "Manual Investigation Drag",
+    "dragHelp": "H / WEEK PER MANAGER",
+    "outputLabel": "ECONOMIC_OUTPUT",
+    "outputTooltipTitle": "Efficiency Reclaimed",
+    "outputTooltipBody": "The sum of avoided management investigation hours and the engineering throughput dividend generated by GraphRAG unblocking.",
+    "totalNote": "Total Annual Efficiency Reclaimed across management time savings and engineering throughput dividend.",
+    "breakdownLabel": "TELEMETRY_BREAKDOWN",
+    "mttdLabel": "MTTD_ELIMINATION_CREDIT",
+    "agenticLabel": "AGENTIC_YIELD_OPTIMIZATION",
+    "platformLabel": "PLATFORM_TELEMETRY_COST",
+    "velocityText": "By shifting from seat-based tax to unit-based outcome, your effective cost-per-work-item is projected at",
+    "mttdChip": "MTTD: INSTANT_DIAGNOSIS",
+    "mttdVs": "vs. 7-day manual investigation loop",
+    "leadTitle": "Get your custom ROI report",
+    "leadSub": "We'll generate a detailed analysis based on your team's specific metrics.",
+    "leadPlaceholder": "work@company.com",
+    "leadCta": "Generate Custom Report"
+  },
+  "benchmarks": {
+    "eyebrow": "BENCHMARKS",
+    "title": "Cost per impact unit by ",
+    "titleAccent": "system maturity",
+    "colTier": "Performance Tier",
+    "colCost": "Cost Per IU",
+    "colCharacteristics": "System Characteristics",
+    "note": "Our GraphRAG engine is engineered to drive your cost-per-unit down as your system matures.",
+    "rows": [
+      { "characteristics": "Mature GraphRAG integration, automated workflows, <2h cycle times" },
+      { "characteristics": "Active optimization, partial automation, 4-8h cycle times" },
+      { "characteristics": "Manual processes, reactive management, 24h+ cycle times" }
+    ]
+  }
+}

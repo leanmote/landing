@@ -1,0 +1,171 @@
+/* =========================================================
+   SprintTrack — toggled F1 race comparison
+   --sprint-color drives all themed elements per state
+   ========================================================= */
+
+.sprint-track {
+  padding-bottom: var(--space-20);
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  transition: --sprint-color 0.4s ease;
+}
+
+/* State-level color token */
+.sprint-track--without {
+  --sprint-color: #ef4444;
+  --sprint-color-soft: rgba(239, 68, 68, 0.12);
+  --sprint-color-glow: rgba(239, 68, 68, 0.3);
+}
+
+.sprint-track--with {
+  --sprint-color: #10b981;
+  --sprint-color-soft: rgba(16, 185, 129, 0.12);
+  --sprint-color-glow: rgba(16, 185, 129, 0.3);
+}
+
+/* ---- Header ---- */
+.sprint-track__header {
+  text-align: center;
+  max-width: 720px;
+  margin-inline: auto;
+  margin-bottom: var(--space-10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.sprint-track__eyebrow {
+  font-family: var(--font-family-label);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-accent);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.sprint-track__subtitle {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-relaxed);
+}
+
+.sprint-track__headline-accent {
+  color: var(--color-brand);
+  text-shadow: 0 0 24px rgba(64, 211, 144, 0.35);
+}
+
+/* ---- Toggle ---- */
+.sprint-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  margin-bottom: var(--space-8);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: 4px;
+  width: fit-content;
+  margin-inline: auto;
+  background-color: var(--color-bg-elevated);
+}
+
+.sprint-toggle__btn {
+  font-family: var(--font-family-label);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: var(--space-2) var(--space-5);
+  border-radius: var(--radius-full);
+  color: var(--color-text-muted);
+  transition: background-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+  cursor: pointer;
+}
+
+.sprint-toggle__btn--without.sprint-toggle__btn--active {
+  background-color: rgba(239, 68, 68, 0.18);
+  color: #ef4444;
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.25);
+}
+
+.sprint-toggle__btn--with.sprint-toggle__btn--active {
+  background-color: rgba(16, 185, 129, 0.18);
+  color: #10b981;
+  box-shadow: 0 0 12px rgba(16, 185, 129, 0.25);
+}
+
+.sprint-toggle__btn:not(.sprint-toggle__btn--active):hover {
+  color: var(--color-text);
+}
+
+/* ---- State header ---- */
+.sprint-track__state-header {
+  text-align: center;
+  margin-bottom: var(--space-6);
+}
+
+.sprint-track__state-title {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--sprint-color);
+  letter-spacing: -0.01em;
+  margin-bottom: var(--space-2);
+}
+
+.sprint-track__state-subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-muted);
+  line-height: var(--line-height-relaxed);
+  max-width: 640px;
+  margin-inline: auto;
+}
+
+/* ---- Illustration ---- */
+.sprint-track__illustration {
+  width: 100%;
+  max-width: 1080px;
+  aspect-ratio: 1865 / 756;
+  margin-inline: auto;
+  padding: var(--space-5);
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 0 40px var(--sprint-color-glow);
+  transition: box-shadow 0.4s ease;
+}
+
+.sprint-track__image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+/* ---- Responsive ---- */
+@media (max-width: 1199px) {
+  .sprint-track {
+    padding-block: var(--space-20);
+  }
+}
+
+@media (max-width: 767px) {
+  .sprint-track {
+    padding-block: 0;
+  }
+  .sprint-track__stops {
+    grid-template-columns: 1fr;
+  }
+  .sprint-track__state-title {
+    font-size: var(--font-size-2xl);
+  }
+  .sprint-toggle__btn {
+    font-size: 0.6rem;
+    padding: var(--space-2) var(--space-4);
+  }
+}

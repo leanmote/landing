@@ -1,0 +1,107 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  padding: var(--space-4) var(--space-6);
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1;
+  border-radius: var(--radius-md);
+  transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+/* Primary — green accent */
+.btn--primary {
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+}
+
+.btn--primary:hover {
+  background-color: var(--color-accent-hover);
+  box-shadow: var(--shadow-glow);
+}
+
+/* Brand — green */
+.btn--brand {
+  background-color: transparent;
+  color: var(--color-brand);
+  border: 2px solid var(--color-green-glow);
+}
+
+.btn--brand:hover {
+  background-color: var(--color-green-soft);
+  border-color: var(--color-brand);
+}
+
+/* Secondary — outlined over dark bg */
+.btn--secondary {
+  background-color: transparent;
+  color: var(--color-text);
+  border: 1px solid var(--color-border-strong);
+}
+
+.btn--secondary:hover {
+  background-color: var(--color-accent-soft);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+/* Outline cyan — used for secondary CTA on dark backgrounds */
+.btn--outline-cyan {
+  background-color: transparent;
+  color: var(--color-cyan);
+  border: 2px solid var(--color-cyan-soft);
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-medium);
+}
+
+.btn--outline-cyan:hover {
+  background-color: var(--color-cyan-soft);
+  border-color: var(--color-cyan);
+}
+
+/* Outline yellow */
+.btn--outline-yellow {
+  background-color: transparent;
+  color: var(--color-yellow);
+  border: 2px solid var(--color-yellow-glow);
+}
+
+.btn--outline-yellow:hover {
+  background-color: var(--color-yellow-soft);
+  border-color: var(--color-yellow);
+}
+
+/* Blue filled */
+.btn--blue {
+  background-color: var(--color-blue);
+  color: var(--color-bg);
+  border: 2px solid var(--color-blue);
+}
+
+.btn--blue:hover {
+  background-color: var(--color-accent-hover);
+  border-color: var(--color-accent-hover);
+  box-shadow: 0 0 20px rgba(27, 132, 255, 0.4);
+}
+
+/* Ghost — no border */
+.btn--ghost {
+  background-color: transparent;
+  color: var(--color-text-muted);
+}
+
+.btn--ghost:hover {
+  color: var(--color-text);
+}

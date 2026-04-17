@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "eyebrow": "Inteligencia basada en rol",
+    "title": "¿Para quién es Leanmote?",
+    "subtitle": "Un sistema de medición holístico para cada rol en tu organización de ingeniería, desde la estrategia de liderazgo hasta la ejecución diaria."
+  },
+  "framework": {
+    "title": "El Sistema de Medición ",
+    "titleItalic": "Holístico",
+    "titleEnd": "",
+    "subtitle": "Inspirado en los marcos de cambio empresarial, Leanmote mide lo que importa en cada capa.",
+    "footnote": "Adaptado del marco de impacto social de McKinsey.",
+    "layers": [
+      {
+        "title": "Objetivo Estrella del Norte",
+        "items": [
+          "Múltiplo del costo por PR y costo ACU en todos los PRs durante un período seleccionado",
+          "Porcentaje de reinversión en desarrollo greenfield y brownfield"
+        ]
+      },
+      {
+        "title": "Resultados Económicos",
+        "items": [
+          "Tiempo para alcanzar el objetivo de ingresos mediante la aceleración del backlog",
+          "Impacto en dólares por nueva función entregada por nuevos equipos",
+          "Reducción de costos por equipo desde estructuras de entrega más eficientes"
+        ]
+      },
+      {
+        "title": "Resultados",
+        "items": ["Velocidad", "Capacidad", "Seguridad", "Calidad", "Resiliencia"]
+      },
+      {
+        "title": "Outputs",
+        "items": [
+          "Amplitud y profundidad de adopción",
+          "Número de personas capacitadas",
+          "NPS de desarrolladores y tendencia de rotación"
+        ]
+      },
+      {
+        "title": "Inputs",
+        "items": [
+          "Inversión en herramientas de codificación IA y herramientas para desarrolladores",
+          "Tiempo y presupuesto invertidos en programas de capacitación",
+          "Inversión en gestión del cambio y modelo operativo"
+        ]
+      }
+    ]
+  },
+  "personas": [
+    {
+      "role": "CTO / VP de Ingeniería",
+      "painHeadline": "Justifica cada dólar de tu inversión en IA e ingeniería.",
+      "description": "Necesitas demostrar el ROI al liderazgo, no solo presentar dashboards. Leanmote te da el lenguaje económico como costo-por-unidad-de-impacto, dividendos de rendimiento y capacidad recuperada para conectar el trabajo de ingeniería con los resultados del negocio.",
+      "benefits": [
+        "Visibilidad del ROI a nivel de sistema en todos los equipos",
+        "Seguimiento de costo por PR y ACU para informes a la junta",
+        "Señales de reinversión para trabajo greenfield y brownfield"
+      ],
+      "metricLabel": "ROI potencial"
+    },
+    {
+      "role": "Engineering Manager / Team Lead",
+      "painHeadline": "Deja de pasar 14 horas a la semana jugando al detective.",
+      "description": "La investigación manual, las sincronizaciones de estado y la priorización por intuición drenan tu semana. Leanmote destaca los cuellos de botella en tiempo real y ayuda a enrutar el trabajo para que puedas liderar la ejecución en lugar de perseguir bloqueadores.",
+      "benefits": [
+        "Detección de cuellos de botella en tiempo real entre equipos",
+        "Enrutamiento automatizado de PRs y asignación inteligente de tareas",
+        "Alertas tempranas de burnout y experiencia del desarrollador"
+      ],
+      "metricLabel": "por semana recuperadas"
+    },
+    {
+      "role": "Product Manager",
+      "painHeadline": "Predice plazos de entrega en los que realmente puedes confiar.",
+      "description": "Las dependencias entre equipos, los bloqueadores ocultos y las estimaciones optimistas pueden descarrilar los roadmaps. Leanmote mapea el contexto de dependencias y mejora la planificación de sprints con señales reales de velocidad y capacidad.",
+      "benefits": [
+        "Mapeo de dependencias entre equipos y flujos",
+        "Inteligencia de sprints basada en velocidad real",
+        "Predicciones de rendimiento de funciones según capacidad del sistema"
+      ],
+      "metricLabel": "planificación más rápida"
+    },
+    {
+      "role": "Desarrollador / IC",
+      "painHeadline": "Entrega código, no actualizaciones de estado.",
+      "description": "Los ciclos de retrabajo, los tiempos de espera en revisiones y el cambio de contexto matan la productividad. Leanmote reduce la fricción en los traspasos con enrutamiento de revisores consciente de la carga y asignaciones más inteligentes basadas en el estado de flujo.",
+      "benefits": [
+        "Enrutamiento de PRs basado en experiencia y carga actual",
+        "Soporte de revisión automatizada de primer paso y documentación",
+        "Asignación de tareas que respeta el flujo y el tiempo de enfoque"
+      ],
+      "metricLabel": "aumento de rendimiento"
+    }
+  ]
+}

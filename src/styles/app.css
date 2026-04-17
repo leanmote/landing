@@ -1,0 +1,250 @@
+/* =========================================================
+   Leanmote Landing — Global styles & design tokens
+   Single source of truth. Components must only consume
+   these variables and the utility classes defined below.
+   ========================================================= */
+
+:root {
+  /* ---- Colors (prismjs-inspired dominant palette) ---- */
+  --color-bg: #1e1e3f;
+  --color-bg-elevated: #2d2d5e;
+  --color-bg-card: #2d2d5e;
+  --color-bg-overlay: rgba(30, 30, 63, 0.72);
+  --color-bg-rail: #323268;
+  --color-bg-deep: #0b0b18;
+  --color-bg-section: #17172f;
+
+  --color-light-bg: #f5f7fb;
+  --color-light-surface: #ffffff;
+  --color-light-text: #0f172a;
+  --color-light-text-muted: #475569;
+  --color-light-border: rgba(15, 23, 42, 0.1);
+
+  --color-text: #ffffff;
+  --color-text-muted: rgba(255, 255, 255, 0.75);
+  --color-text-subtle: rgba(255, 255, 255, 0.5);
+
+  /* ---- Brand palette (4 primary colors) ---- */
+  --color-green: #40d390;
+  --color-green-hover: #2fb97e;
+  --color-green-soft: rgba(64, 211, 144, 0.12);
+  --color-green-glow: rgba(64, 211, 144, 0.35);
+
+  --color-blue: #2392FF;
+  --color-blue-hover: #1478e8;
+  --color-blue-soft: rgba(35, 146, 255, 0.12);
+  --color-blue-glow: rgba(35, 146, 255, 0.35);
+
+  --color-yellow: #ECB22E;
+  --color-yellow-hover: #d49e20;
+  --color-yellow-soft: rgba(236, 178, 46, 0.12);
+  --color-yellow-glow: rgba(236, 178, 46, 0.35);
+
+  --color-red: #FF3366;
+  --color-red-hover: #e8224f;
+  --color-red-soft: rgba(255, 51, 102, 0.12);
+  --color-red-glow: rgba(255, 51, 102, 0.35);
+
+  /* Semantic aliases — components reference these */
+  --color-brand: var(--color-green);
+  --color-brand-hover: var(--color-green-hover);
+  --color-brand-soft: var(--color-green-soft);
+  --color-brand-glow: var(--color-green-glow);
+
+  --color-accent: var(--color-blue);
+  --color-accent-hover: var(--color-blue-hover);
+  --color-accent-soft: var(--color-blue-soft);
+  --color-accent-glow: var(--color-blue-glow);
+
+  --color-cyan: var(--color-yellow);
+  --color-cyan-soft: var(--color-yellow-soft);
+
+  --color-danger: var(--color-red);
+  --color-danger-soft: var(--color-red-soft);
+
+  --color-orange: var(--color-yellow);
+  --color-orange-soft: var(--color-yellow-soft);
+  --color-purple: var(--color-red);
+
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-strong: rgba(255, 255, 255, 0.2);
+
+  --color-danger: #ef4444;
+  --color-danger-soft: rgba(239, 68, 68, 0.12);
+
+  /* Graph node / edge colors */
+  --color-node-team: var(--color-blue);
+  --color-node-repo: var(--color-green);
+  --color-node-bottleneck: var(--color-red);
+  --color-node-warning: var(--color-yellow);
+  --color-node-ai: var(--color-yellow);
+  --color-edge-default: #475569;
+  --color-edge-particle: #94a3b8;
+  --color-node-label: #e2e8f0;
+  --color-node-fill: #0f172a;
+
+  /* Gradients */
+  --gradient-hero:
+    radial-gradient(1200px 600px at 50% -10%, rgba(27, 132, 255, 0.22) 0%, rgba(55, 55, 115, 0.18) 40%, transparent 70%),
+    linear-gradient(180deg, #1e1e3f 0%, #1e1e3f 100%);
+
+  /* ---- Typography ---- */
+  --font-family-sans: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-family-display: "Chakra Petch", var(--font-family-sans);
+  --font-family-label: "Orbitron", var(--font-family-sans);
+  --font-family-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --font-size-sm: 0.875rem;     /* 14 */
+  --font-size-base: 1rem;       /* 16 */
+  --font-size-lg: 1.125rem;     /* 18 */
+  --font-size-xl: 1.25rem;      /* 20 */
+  --font-size-2xl: 1.5rem;      /* 24 */
+  --font-size-3xl: 2rem;        /* 32 */
+  --font-size-4xl: 2.5rem;      /* 40 */
+  --font-size-5xl: 3.5rem;      /* 56 */
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-tight: 1.15;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+  /* ---- Spacing scale (4px base) ---- */
+  --space-1: 0.25rem;   /* 4  */
+  --space-2: 0.5rem;    /* 8  */
+  --space-3: 0.75rem;   /* 12 */
+  --space-4: 1rem;      /* 16 */
+  --space-5: 1.25rem;   /* 20 */
+  --space-6: 1.5rem;    /* 24 */
+  --space-8: 2rem;      /* 32 */
+  --space-10: 2.5rem;   /* 40 */
+  --space-12: 3rem;     /* 48 */
+  --space-16: 4rem;     /* 64 */
+  --space-20: 5rem;     /* 80 */
+  --space-24: 6rem;     /* 96 */
+
+  /* ---- Radius ---- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 999px;
+
+  /* ---- Shadows ---- */
+  --shadow-md: 0 6px 24px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 0 24px rgba(20, 194, 122, 0.45);
+
+  /* ---- Layout ---- */
+  --container-max-width: 1200px;
+  --container-padding-x: var(--space-6);
+  --navbar-height: 72px;
+}
+
+/* =========================================================
+   Minimal reset
+   ========================================================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* =========================================================
+   Utility: container
+   ========================================================= */
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+/* =========================================================
+   Utility: eyebrow pill — shared across page heroes
+   ========================================================= */
+.eyebrow-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-full);
+  border: 1px solid rgba(64, 211, 144, 0.3);
+  background-color: var(--color-brand-soft);
+  color: var(--color-brand);
+  font-family: var(--font-family-label);
+  font-size: 0.675rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: var(--space-6);
+}
+
+/* =========================================================
+   Responsive — tighten container padding on smaller screens
+   ========================================================= */
+@media (max-width: 1199px) {
+  :root {
+    --container-padding-x: var(--space-5);
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --container-padding-x: var(--space-4);
+  }
+}

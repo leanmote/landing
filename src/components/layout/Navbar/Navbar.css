@@ -1,0 +1,195 @@
+.navbar {
+  position: fixed;
+  top: var(--space-4);
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding-inline: var(--space-4);
+  pointer-events: none;
+}
+
+.navbar__inner {
+  pointer-events: auto;
+  max-width: 1120px;
+  margin-inline: auto;
+  height: 56px;
+  padding-inline: var(--space-5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  background-color: rgba(30, 30, 63, 0.6);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.navbar--scrolled .navbar__inner {
+  background-color: rgba(30, 30, 63, 0.88);
+  border-color: var(--color-border-strong);
+}
+
+.navbar__brand {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+}
+
+.navbar__brand img {
+  height: 100%;
+  width: auto;
+}
+
+.navbar__links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar__links ul {
+  display: flex;
+  align-items: center;
+  gap: var(--space-8);
+}
+
+.navbar__links a {
+  font-family: var(--font-family-sans);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-muted);
+  transition: color 0.2s ease;
+}
+
+.navbar__links a:hover {
+  color: var(--color-text);
+}
+
+.navbar__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+/* Compact Sign Up inside the pill */
+.navbar__actions .btn {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--font-size-sm);
+}
+
+@media (max-width: 1199px) {
+  .navbar__links ul {
+    gap: var(--space-5);
+  }
+}
+
+.navbar__hamburger {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-md);
+  color: var(--color-text-muted);
+  transition: color 0.2s ease, background 0.2s ease;
+}
+
+.navbar__hamburger:hover {
+  color: var(--color-text);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.navbar__overlay {
+  display: none;
+}
+
+.navbar__drawer {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    top: var(--space-3);
+    padding-inline: var(--space-3);
+  }
+
+  .navbar__inner {
+    height: 52px;
+    padding-inline: var(--space-3);
+  }
+
+  .navbar__links,
+  .navbar__actions {
+    display: none;
+  }
+
+  .navbar__hamburger {
+    display: inline-flex;
+  }
+
+  .navbar__overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    z-index: 998;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+  }
+
+  .navbar__drawer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 280px;
+    z-index: 999;
+    background: rgba(18, 22, 52, 0.97);
+    border-left: 1px solid var(--color-border);
+    backdrop-filter: blur(20px);
+    padding: var(--space-16) var(--space-6) var(--space-8);
+    transform: translateX(100%);
+    transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .navbar__drawer--open {
+    transform: translateX(0);
+  }
+
+  .navbar__drawer-links {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-1);
+    flex: 1;
+  }
+
+  .navbar__drawer-links li a {
+    display: block;
+    padding: var(--space-3) var(--space-2);
+    font-family: var(--font-family-sans);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text-muted);
+    border-radius: var(--radius-md);
+    transition: color 0.2s ease, background 0.2s ease;
+  }
+
+  .navbar__drawer-links li a:hover {
+    color: var(--color-text);
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  .navbar__drawer-actions {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .navbar__drawer-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

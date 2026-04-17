@@ -1,0 +1,297 @@
+{
+  "pricingTabs": {
+    "eyebrow": "Precios",
+    "title": "Precios simples y ",
+    "titleItalic": "transparentes",
+    "titleEnd": ".",
+    "subtitle": "Elige el plan que se adapta al tamaño y etapa de tu equipo de ingeniería.",
+    "tabs": [
+      { "id": "hybrid", "label": "NIVELES HÍBRIDOS" },
+      { "id": "benchmarks", "label": "BENCHMARKS" },
+      { "id": "impact", "label": "SIMULACIÓN DE IMPACTO" },
+      { "id": "telemetry", "label": "TOKENS DE TELEMETRÍA" }
+    ]
+  },
+  "pricing": {
+    "eyebrow": "PRECIOS",
+    "title1": "Precios simples y ",
+    "titleHighlight": "transparentes",
+    "title2": ".",
+    "subtitle": "Elige el plan que se adapta al tamaño y etapa de tu equipo de ingeniería.",
+    "billingMonthly": "Mensual",
+    "billingAnnual": "Anual",
+    "savePct": "Ahorra 20%",
+    "contributorsLabel": "Número de Contribuidores",
+    "contributorsSuffix": "Contribuidores",
+    "contributorsSelected": "seleccionados",
+    "contributorsMax": "200 Contribuidores",
+    "annualTotal": "Total anual",
+    "monthlyTotal": "Total mensual",
+    "for": "para",
+    "annualBilled": "Facturado anualmente (ahorra 20%)",
+    "creditsLabel": "Créditos de Análisis bajo Demanda",
+    "tiers": [
+      {
+        "name": "Gratis",
+        "description": "Para individuos y equipos pequeños que exploran métricas DORA.",
+        "credits": "10 créditos / mes",
+        "creditsOptions": ["10 créditos / mes", "25 créditos / mes", "50 créditos / mes"],
+        "featuresHeader": "Qué incluye",
+        "features": [
+          "Hasta 5 contribuidores",
+          "Métricas DORA",
+          "Insights de Pull Requests",
+          "Insights de Rendimiento de Equipos",
+          "Registro de Trabajo",
+          "Alertas en Slack",
+          "Hasta 5 Repositorios",
+          "3 meses de historial de datos",
+          "Soporte por email/chat"
+        ],
+        "cta": "Comenzar Gratis"
+      },
+      {
+        "name": "Growth",
+        "description": "Insights profundos para equipos de alta velocidad.",
+        "credits": "100 créditos / mes",
+        "creditsOptions": [
+          "50 créditos / mes",
+          "100 créditos / mes",
+          "250 créditos / mes",
+          "500 créditos / mes"
+        ],
+        "featuresHeader": "Todo en Gratis, más",
+        "features": [
+          "Insights de Sprint",
+          "Insights por Contribuidor",
+          "Insights de Despliegues",
+          "Metas Automatizadas",
+          "Distribución de Inversión",
+          "Insights de Experiencia Dev / Burnout",
+          "Configuraciones Personalizadas",
+          "Repositorios Ilimitados",
+          "6 meses de historial de datos",
+          "Soporte prioritario"
+        ],
+        "cta": "Iniciar Prueba Gratuita"
+      },
+      {
+        "name": "Scale",
+        "description": "Analíticas impulsadas por IA a escala.",
+        "credits": "1.000 créditos / mes",
+        "creditsOptions": [
+          "500 créditos / mes",
+          "1.000 créditos / mes",
+          "2.500 créditos / mes",
+          "5.000 créditos / mes"
+        ],
+        "featuresHeader": "Todo en Growth, más",
+        "features": [
+          "Análisis de Salud del Código",
+          "Revisiones de PR Automatizadas",
+          "Resumen de PR con IA",
+          "Correcciones de Código con IA",
+          "Cobertura de Código",
+          "Configuraciones de Reglas",
+          "Historial de datos ilimitado",
+          "Success Manager Dedicado"
+        ],
+        "cta": "Iniciar Prueba Gratuita",
+        "badge": "Más Popular"
+      },
+      {
+        "name": "Enterprise",
+        "description": "Soluciones personalizadas para equipos globales.",
+        "annualBoxNote": "Contáctanos para precios por volumen",
+        "credits": "Análisis ilimitados bajo demanda",
+        "featuresHeader": "Todo en Scale, más",
+        "features": [
+          "Soporte on-premise",
+          "Soporte para múltiples orgs Git",
+          "Capitalización de Software",
+          "Integraciones Personalizadas",
+          "SSO / SAML",
+          "Registros de auditoría y cumplimiento",
+          "Garantía SLA (99.9%)",
+          "y más..."
+        ],
+        "cta": "Contactar Ventas"
+      }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "COMPARAR PLANES",
+    "title1": "Cada función, ",
+    "titleHighlight": "lado a lado",
+    "title2": ".",
+    "subtitle": "Descubre qué cambia a medida que tu equipo crece con Leanmote.",
+    "featuresHeading": "Funciones",
+    "mostPopular": "Más Popular",
+    "groups": [
+      {
+        "title": "MÉTRICAS CORE",
+        "rows": [
+          "Dashboard de Métricas DORA",
+          "Frecuencia de Despliegue",
+          "Lead Time para Cambios",
+          "Tiempo Medio de Recuperación",
+          "Tasa de Fallos de Cambios",
+          "Métricas Personalizadas"
+        ]
+      },
+      {
+        "title": "INTEGRACIONES",
+        "rows": [
+          "GitHub",
+          "GitLab",
+          "Bitbucket",
+          "Jira",
+          "Linear",
+          "Notificaciones Slack",
+          "Integraciones Personalizadas"
+        ]
+      },
+      {
+        "title": "ANALÍTICAS E IA",
+        "rows": [
+          "Informes de Velocidad de Equipo",
+          "Análisis del Grafo de Conocimiento",
+          "Insights con IA (Sheldon)",
+          "Detección de Cuellos de Botella",
+          "Puntuaciones de Predictibilidad",
+          "Dashboards Personalizados"
+        ]
+      },
+      {
+        "title": "DATOS Y SEGURIDAD",
+        "rows": [
+          "Retención de Datos",
+          "Contribuidores",
+          "SSO / SAML",
+          "Acceso a API",
+          "Registros de Auditoría",
+          "Despliegue On-Premise",
+          "Certificado SOC2 Tipo II"
+        ]
+      },
+      {
+        "title": "SOPORTE",
+        "rows": [
+          "Soporte de Comunidad",
+          "Soporte por Email",
+          "Soporte Prioritario",
+          "Success Manager Dedicado",
+          "Formación Personalizada",
+          "Garantía SLA"
+        ]
+      }
+    ]
+  },
+  "addons": {
+    "chip": "PERSONALIZA TU PLAN",
+    "titleHighlight": "Complementos",
+    "titleEnd": " flexibles",
+    "salesLink": "Habla con Ventas para paquetes personalizados",
+    "items": [
+      {
+        "title": "Recarga de Créditos",
+        "description": "¿Necesitas más análisis? Recarga en cualquier momento. Los créditos no vencen.",
+        "badge": "Popular",
+        "packs": [
+          { "amount": "50 Créditos", "price": "$19" },
+          { "amount": "200 Créditos", "price": "$59", "save": "Ahorra 25%" },
+          { "amount": "500 Créditos", "price": "$119", "save": "Ahorra 40%" }
+        ],
+        "cta": "Comprar Créditos"
+      },
+      {
+        "title": "Analíticas de Impacto IA",
+        "description": "Insights a nivel ejecutivo para medir el ROI de inversión en IA y la velocidad de ingeniería.",
+        "cta": "Agregar al Plan"
+      },
+      {
+        "title": "Integración Personalizada",
+        "description": "Conecta tus herramientas internas con una integración a medida construida para ti.",
+        "cta": "Solicitar Presupuesto"
+      },
+      {
+        "title": "Formación de Equipos",
+        "description": "Sesiones de incorporación en vivo y talleres de mejores prácticas para tu equipo.",
+        "cta": "Reservar Sesión"
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "PREGUNTAS FRECUENTES",
+    "title1": "Preguntas ",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Respuestas rápidas sobre planes, seguridad y cómo Leanmote encaja en tu stack.",
+    "items": [
+      {
+        "question": "¿Qué cuenta como contribuidor?",
+        "answer": "Un contribuidor es cualquier persona que hace commits en tus repositorios conectados durante el período de facturación. Los contribuidores inactivos (sin commits en 30 días) no cuentan para tu límite."
+      },
+      {
+        "question": "¿Puedo cambiar de plan en cualquier momento?",
+        "answer": "Por supuesto. Puedes actualizar o bajar de plan en cualquier momento. Las actualizaciones son inmediatas y los cambios a planes inferiores se aplican al siguiente ciclo de facturación."
+      },
+      {
+        "question": "¿Qué ocurre si supero mi límite de contribuidores?",
+        "answer": "Te notificaremos cuando estés cerca del límite. Puedes actualizar tu plan o agregar más asientos, y ofrecemos un período de gracia antes de cualquier interrupción del servicio."
+      },
+      {
+        "question": "¿Cómo funciona el análisis del Grafo de Conocimiento?",
+        "answer": "Nuestro motor mapea relaciones entre código, personas y procesos en todas tus herramientas. Identifica dependencias ocultas y cuellos de botella que las métricas simples no detectan."
+      },
+      {
+        "question": "¿Son seguros mi código y mis datos?",
+        "answer": "Somos certificados SOC2 Tipo II. Nunca almacenamos código fuente, solo los metadatos necesarios para el análisis. Los planes Enterprise también ofrecen opciones on-premise."
+      },
+      {
+        "question": "¿Ofrecen descuentos para startups u organizaciones sin fines de lucro?",
+        "answer": "Sí. Apoyamos a startups en etapas tempranas y organizaciones sin fines de lucro con programas de precios especiales a través de nuestro equipo de ventas."
+      },
+      {
+        "question": "¿Qué integraciones soportan?",
+        "answer": "Nos integramos con GitHub, GitLab, Bitbucket, Jira, Linear, Slack y las principales plataformas CI/CD. Los planes Enterprise soportan integraciones personalizadas."
+      },
+      {
+        "question": "¿Hay prueba gratuita?",
+        "answer": "Sí. Todos los planes de pago incluyen una prueba gratuita de 14 días sin necesidad de tarjeta de crédito. También puedes usar el plan Gratis indefinidamente para hasta 5 contribuidores."
+      },
+      {
+        "question": "¿Con qué rapidez puedo empezar?",
+        "answer": "Puedes conectar repositorios y ver tus primeras métricas en menos de 5 minutos. La importación de datos históricos suele completarse en aproximadamente una hora."
+      },
+      {
+        "question": "¿Puedo exportar mis datos?",
+        "answer": "Sí. Puedes exportar métricas e informes en CSV o PDF. Los planes Enterprise también incluyen acceso a API para exportaciones programáticas."
+      }
+    ]
+  },
+  "impactSimulator": {
+    "title": "SIMULADOR DE ",
+    "titleAccent": "IMPACTO",
+    "volumeLabel": "VOLUMEN DE TRABAJO MENSUAL",
+    "volumeSubtitle": "(PRs + Tareas)",
+    "valueUnit": "UNIDADES DE IMPACTO / MES",
+    "platformInvestment": "INVERSIÓN EN PLATAFORMA",
+    "managementTime": "TIEMPO DE GESTIÓN RECUPERADO",
+    "accelerationIndex": "ÍNDICE DE ACELERACIÓN",
+    "accelerationSubtitle": "Potencial de Rendimiento de Funciones",
+    "scalingStatus": "ESCALANDO EN PROGRESO"
+  },
+  "telemetryTokens": {
+    "eyebrow": "TOKENS DE TELEMETRÍA",
+    "title": "Análisis profundos ",
+    "titleAccent": "bajo demanda",
+    "subtitle": "Las verificaciones automáticas diarias de cuellos de botella se incluyen gratis. Las auditorías complejas cross-team con GraphRAG, análisis de silos, análisis profundos de burnout y mapeo de dependencias consumen Tokens de Telemetría.",
+    "tokensLabel": "Tokens",
+    "acquireBtn": "Adquirir Tokens",
+    "packages": [
+      { "description": "Profundidad de diagnóstico estándar" },
+      { "description": "Análisis a nivel de equipo", "badge": "Ahorra 20%" },
+      { "description": "Auditorías a nivel organizacional", "badge": "Ahorra 30%" }
+    ]
+  }
+}

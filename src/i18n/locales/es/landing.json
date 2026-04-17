@@ -1,0 +1,202 @@
+{
+  "hero": {
+    "badge": "Inteligencia de sistema con GraphRAG",
+    "headlinePrefix1": "De ",
+    "headlineHighlight1": "ingenieros 10x",
+    "headlinePrefix2": "a una ",
+    "headlineHighlight2": "empresa 10x",
+    "subtitle": "Los equipos de F1 no ganan solo con autos rápidos; ganan con telemetría en tiempo real. Leanmote es el sistema basado en GraphRAG que mapea el ADN de tu equipo para",
+    "subtitleEmphasis": "desbloquear flujos de trabajo, optimizar el ROI de IA y alcanzar una aceleración del 15% trimestre a trimestre.",
+    "ctaCommandCenter": "Explorar el Centro de Comando →",
+    "ctaAudit": "Iniciar tu Auditoría de Rendimiento →"
+  },
+  "subscribeCta": {
+    "heading": "¿Listo para ver tu equipo con claridad?",
+    "desc": "Suscríbete para recibir actualizaciones exclusivas y ser el primero en probar Leanmote.",
+    "perk1": "Sin instalación, sin tarjeta de crédito",
+    "perk2": "En Slack en menos de 2 minutos",
+    "perk3": "Acceso anticipado gratuito",
+    "emailLabel": "Email de trabajo",
+    "emailPlaceholder": "Ingresa tu email de trabajo",
+    "submitBtn": "Suscribirme →",
+    "finePrint": "Respetamos tu privacidad. Cancela la suscripción en cualquier momento."
+  },
+  "f1Engine": {
+    "eyebrow": "VISIBILIDAD OPERACIONAL",
+    "title1": "Compraste un motor de F1.",
+    "title2": "Luego le diste a tu piloto ",
+    "titleAccent": "ningún tablero.",
+    "subtitle": "La mayoría de los líderes de ingeniería están atrapados apagando incendios a nivel de proyecto. Los equipos de élite gestionan el sistema en sí.",
+    "without": {
+      "title": "El Viejo Método",
+      "subtitle": "SECUENCIAL Y MANUAL",
+      "items": [
+        {
+          "title": "La Trampa de las Reuniones",
+          "description": "Los CTOs pasan horas en ciclos de \"actualización de estado\" intentando encontrar cuellos de botella manualmente.",
+          "metricLabel": "Prom.",
+          "metricValue": "60 min de sync / semana"
+        },
+        {
+          "title": "7 Días Buscando la Causa Raíz",
+          "description": "Para cuando encuentras el bloqueador, el sprint ya está descarrilado.",
+          "metricLabel": "Latencia",
+          "metricValue": "Alta"
+        },
+        {
+          "title": "Ceguera de Inversión en IA",
+          "description": "Comprando licencias de Copilot sin saber si realmente aceleran la entrega.",
+          "metricLabel": "ROI",
+          "metricValue": "Desconocido"
+        }
+      ]
+    },
+    "with": {
+      "title": "El Método F1",
+      "subtitle": "AGÉNTICO Y SISTÉMICO",
+      "items": [
+        {
+          "title": "Identificación Instantánea del Cuello de Botella",
+          "description": "Leanmote identifica el bloqueador exacto en segundos, no en horas.",
+          "metricLabel": "Tiempo de reuniones recuperado",
+          "metricValue": "100%",
+          "badge": "RESUELTO < 2s"
+        },
+        {
+          "title": "Contexto GraphRAG",
+          "description": "Entiende la cadena de dependencias completa. Arregla el sistema, no solo el síntoma.",
+          "metricLabel": "Resolución",
+          "metricValue": "A nivel de sistema"
+        },
+        {
+          "title": "Resolución Agéntica",
+          "description": "Re-enrutamiento autónomo del trabajo para despejar bloqueos sin intervención humana.",
+          "metricLabel": "Acción",
+          "metricValue": "Automatizada"
+        }
+      ]
+    }
+  },
+  "sprintTrack": {
+    "eyebrow": "EL CICLO DEL SPRINT",
+    "title1": "Tu sprint como una carrera de F1.",
+    "titleAccent": "Leanmote es el muro de boxes.",
+    "subtitle": "Orquestación agéntica del Día 1 al Día 7 — entrega, telemetría, supervisión.",
+    "without": {
+      "switchLabel": "Sin Leanmote",
+      "title": "El Ciclo del Cuello de Botella",
+      "subtitle": "Sincronizaciones manuales. Fricción invisible. La telemetría llega cuando el daño ya está hecho."
+    },
+    "with": {
+      "switchLabel": "Con Leanmote",
+      "title": "Precisión F1",
+      "subtitle": "Orquestación agéntica de extremo a extremo. Telemetría en vivo. El muro de boxes está activo."
+    }
+  },
+  "security": {
+    "eyebrow1": "ARQUITECTURA CENTRADA EN SEGURIDAD",
+    "title1": "Tu código nunca sale de ",
+    "titleAccent1": "tu infraestructura.",
+    "desc1": "Construimos Leanmote con una arquitectura de \"Seguridad Primero\". Procesamos metadatos, nunca código fuente.",
+    "eyebrow2": "AGNÓSTICO DE PLATAFORMA",
+    "title2": "Se conecta a toda tu cadena de herramientas ",
+    "titleAccent2": "en 2 minutos",
+    "desc2": "Sin cambios en el flujo de trabajo. Nos integramos con GitHub, GitLab, Jira, Linear, Slack, PagerDuty y más de 50 herramientas para extraer insights al instante.",
+    "cards": [
+      {
+        "title": "Certificado SOC2 Tipo II",
+        "description": "Controles de seguridad auditados de forma independiente. Gestionamos los datos como tu equipo de auditoría lo necesita."
+      },
+      {
+        "title": "Acceso Solo de Lectura",
+        "description": "Solo extraemos los metadatos que necesitamos. Nunca escribimos en tus repositorios ni herramientas."
+      },
+      {
+        "title": "Política de Cero Retención",
+        "description": "Tu código fuente es procesado, nunca almacenado. Solo los insights salen del túnel."
+      }
+    ]
+  },
+  "knowledgeGraph": {
+    "eyebrow": "TELEMETRÍA EN VIVO Y ANÁLISIS DE CUELLOS DE BOTELLA",
+    "titlePart1": "GraphRAG: ",
+    "titleAccent": "Diagnóstico de Impacto IA",
+    "subtitle": "Las herramientas estándar ven tickets; nosotros vemos la Telemetría. Nuestro Grafo de Conocimiento identifica por qué Olivia está bloqueada en 3 proyectos o por qué un endpoint de API genera 14h de retraso—y luego te da el botón de 'Resolver'.",
+    "liveBtn": "Tiempo Real",
+    "alertBtn": "Resolver Alerta",
+    "features": [
+      {
+        "title": "Mapeo de Dependencias Entre Repositorios",
+        "desc": "Visualiza cómo los cambios en un servicio impactan a otros al instante."
+      },
+      {
+        "title": "Colaboración de Agentes IA",
+        "desc": "Observa cómo Cursor y Copilot están impactando realmente la velocidad del código."
+      },
+      {
+        "title": "Telemetría con Humano en el Ciclo",
+        "desc": "Identifica el riesgo de burnout y los silos de conocimiento antes de que rompan el equipo."
+      }
+    ],
+    "alerts": [
+      { "title": "Cuello de Botella Detectado", "desc": "El Endpoint de API genera 14h de retraso en el Equipo Frontend." },
+      { "title": "Cuello de Botella Detectado", "desc": "La Revisión de Código genera 8h de retraso en el Equipo Backend." },
+      { "title": "Cuello de Botella Detectado", "desc": "El Pipeline CI genera 8h de retraso en el Test Suite." },
+      { "title": "Cuello de Botella Detectado", "desc": "El Test Suite está bloqueando el release de Mobile por 3h." }
+    ],
+    "legend": [
+      { "label": "Equipos" },
+      { "label": "Repos" },
+      { "label": "Cuellos de botella" },
+      { "label": "Avisos" },
+      { "label": "Herramientas IA" }
+    ]
+  },
+  "roiCalculator": {
+    "eyebrow": "CALCULADORA DE ROI",
+    "title1": "Ve tus ",
+    "titleHighlight": "ahorros",
+    "title2": " en números.",
+    "subtitle": "Calcula tus ahorros anuales potenciales y el retorno de inversión.",
+    "inputsTitle": "MODELO_DE_ENTRADA_DE_TELEMETRÍA",
+    "engineersLabel": "Nodos de Ingeniería",
+    "volumeLabel": "Volumen de Impacto del Sistema",
+    "volumeTooltipTitle": "Unidades de Impacto",
+    "volumeTooltipBody": "Pull Requests mergeados + Tareas cerradas. Mide la velocidad de producción real de tu equipo.",
+    "volumeHelp": "(PRs mergeados + Tareas cerradas / mes)",
+    "costLabel": "Costo Anual Promedio por Recurso",
+    "costTooltipTitle": "Benchmarks Globales",
+    "costTooltipBody": "Soporta benchmarks globales, incluyendo hubs tech de LatAm (desde $30k) y tarifas estándar de EE.UU. La tarifa por hora se calcula como Costo Anual ÷ 2.080 horas de trabajo.",
+    "dragLabel": "Fricción de Investigación Manual",
+    "dragHelp": "H / SEMANA POR MANAGER",
+    "outputLabel": "RENDIMIENTO_ECONÓMICO",
+    "outputTooltipTitle": "Eficiencia Recuperada",
+    "outputTooltipBody": "La suma de las horas de investigación de gestión evitadas y el dividendo de rendimiento de ingeniería generado por el desbloqueo de GraphRAG.",
+    "totalNote": "Eficiencia Anual Total Recuperada entre ahorro de tiempo de gestión y dividendo de rendimiento de ingeniería.",
+    "breakdownLabel": "DESGLOSE_DE_TELEMETRÍA",
+    "mttdLabel": "CRÉDITO_ELIMINACIÓN_MTTD",
+    "agenticLabel": "OPTIMIZACIÓN_RENDIMIENTO_AGÉNTICO",
+    "platformLabel": "COSTO_TELEMETRÍA_PLATAFORMA",
+    "velocityText": "Al pasar del impuesto por asiento al resultado por unidad, tu costo efectivo por ítem de trabajo se proyecta en",
+    "mttdChip": "MTTD: DIAGNÓSTICO_INSTANTÁNEO",
+    "mttdVs": "vs. ciclo de investigación manual de 7 días",
+    "leadTitle": "Obtén tu informe ROI personalizado",
+    "leadSub": "Generaremos un análisis detallado basado en las métricas específicas de tu equipo.",
+    "leadPlaceholder": "trabajo@empresa.com",
+    "leadCta": "Generar Informe Personalizado"
+  },
+  "benchmarks": {
+    "eyebrow": "BENCHMARKS",
+    "title": "Costo por unidad de impacto según ",
+    "titleAccent": "madurez del sistema",
+    "colTier": "Nivel de Rendimiento",
+    "colCost": "Costo por UI",
+    "colCharacteristics": "Características del Sistema",
+    "note": "Nuestro motor GraphRAG está diseñado para reducir tu costo por unidad a medida que tu sistema madura.",
+    "rows": [
+      { "characteristics": "Integración madura de GraphRAG, flujos automatizados, tiempos de ciclo <2h" },
+      { "characteristics": "Optimización activa, automatización parcial, tiempos de ciclo 4-8h" },
+      { "characteristics": "Procesos manuales, gestión reactiva, tiempos de ciclo 24h+" }
+    ]
+  }
+}

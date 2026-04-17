@@ -12,6 +12,16 @@ dist
 dist-ssr
 *.local
 
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Coverage & cache
+coverage
+.eslintcache
+.cache
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
