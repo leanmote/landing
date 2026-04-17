@@ -4,10 +4,12 @@ import { useTranslation } from 'react-i18next';
 import SubscribeCTA from '../../components/sections/SubscribeCTA/SubscribeCTA.jsx';
 import './CaseStudiesPage.css';
 
+const base = import.meta.env.BASE_URL;
+
 const CASE_STUDY_META = [
-  { company: 'Vita Wallet',     logoSrc: '/logos/clients/vita-wallet.png', industry: 'Fintech',                   teamSize: '15 engineers', metrics: ['24%', '+25%', '$125k'], tone: 'green',  role: 'Vita Wallet'     },
-  { company: 'Gauss Control',   logoSrc: '/logos/clients/gauss.png',       industry: 'AI Safety Technology',      teamSize: '25+ engineers', metrics: ['37%', '+22%', '$270k'], tone: 'yellow', role: 'Gauss Control'   },
-  { company: 'Holon Software',  logoSrc: '/logos/clients/teamcore.png',    industry: 'Retail Execution Software',  teamSize: '40+ engineers', metrics: ['55%', '+31%', '$340k'], tone: 'blue',   role: 'Holon Software'  },
+  { company: 'Vita Wallet',     logoSrc: base + 'logos/clients/vita-wallet.png', industry: 'Fintech',                   teamSize: '15 engineers', metrics: ['24%', '+25%', '$125k'], tone: 'green',  role: 'Vita Wallet'     },
+  { company: 'Gauss Control',   logoSrc: base + 'logos/clients/gauss.png',       industry: 'AI Safety Technology',      teamSize: '25+ engineers', metrics: ['37%', '+22%', '$270k'], tone: 'yellow', role: 'Gauss Control'   },
+  { company: 'Holon Software',  logoSrc: base + 'logos/clients/teamcore.png',    industry: 'Retail Execution Software',  teamSize: '40+ engineers', metrics: ['55%', '+31%', '$340k'], tone: 'blue',   role: 'Holon Software'  },
 ];
 
 function CaseStudiesPage() {
