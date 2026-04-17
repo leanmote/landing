@@ -14,7 +14,7 @@ function SprintTrack() {
   const { t } = useTranslation('landing');
 
   const isWithout = activeId === 'without';
-  const illustrationSrc = isWithout ? '/illustrations/without.svg' : '/illustrations/with.svg';
+  const illustrationSrc = isWithout ? import.meta.env.BASE_URL + 'illustrations/without.svg' : import.meta.env.BASE_URL + 'illustrations/with.svg';
 
   const stateData = isWithout
     ? { title: t('sprintTrack.without.title'), subtitle: t('sprintTrack.without.subtitle') }
