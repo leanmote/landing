@@ -10,15 +10,9 @@ import './CaseStudiesPage.css';
 const base = import.meta.env.BASE_URL;
 
 const CASE_STUDY_META = [
-<<<<<<< HEAD
   { company: 'Vita Wallet',     logoSrc: base + 'logos/clients/vita-wallet.png', industry: 'Fintech',                   teamSize: '15 engineers', metrics: ['24%', '+25%', '$125k'], tone: 'green',  role: 'Vita Wallet'     },
   { company: 'Gauss Control',   logoSrc: base + 'logos/clients/gauss.png',       industry: 'AI Safety Technology',      teamSize: '25+ engineers', metrics: ['37%', '+22%', '$270k'], tone: 'yellow', role: 'Gauss Control'   },
   { company: 'Holon Software',  logoSrc: base + 'logos/clients/teamcore.png',    industry: 'Retail Execution Software',  teamSize: '40+ engineers', metrics: ['55%', '+31%', '$340k'], tone: 'blue',   role: 'Holon Software'  },
-=======
-  { company: 'Vita Wallet',     logoSrc: vitaWalletLogo, industry: 'Fintech',                   teamSize: '15 engineers', metrics: ['24%', '+25%', '$125k'], tone: 'green',  role: 'Vita Wallet'     },
-  { company: 'Gauss Control',   logoSrc: gaussLogo,      industry: 'AI Safety Technology',      teamSize: '25+ engineers', metrics: ['37%', '+22%', '$270k'], tone: 'yellow', role: 'Gauss Control'   },
-  { company: 'Holon Software',  logoSrc: teamcoreLogo,   industry: 'Retail Execution Software',  teamSize: '40+ engineers', metrics: ['55%', '+31%', '$340k'], tone: 'blue',   role: 'Holon Software'  },
->>>>>>> 9f00185 (feat: set English as default language and import images as module assets)
 ];
 
 function CaseStudiesPage() {

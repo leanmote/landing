@@ -82,11 +82,7 @@ function F1PrecisionDashboard() {
         <div ref={containerRef} className="f1-dashboard__split">
           <div className="f1-dashboard__pane f1-dashboard__pane--without">
             <img
-<<<<<<< HEAD
               src={import.meta.env.BASE_URL + 'illustrations/without.svg'}
-=======
-              src={withoutSvg}
->>>>>>> 9f00185 (feat: set English as default language and import images as module assets)
               alt="Bottleneck Cycle — slow, fragmented delivery"
               className="f1-dashboard__image"
               draggable={false}
@@ -95,11 +91,7 @@ function F1PrecisionDashboard() {
 
           <div className="f1-dashboard__pane f1-dashboard__pane--with">
             <img
-<<<<<<< HEAD
               src={import.meta.env.BASE_URL + 'illustrations/with.svg'}
-=======
-              src={withSvg}
->>>>>>> 9f00185 (feat: set English as default language and import images as module assets)
               alt="F1 Precision — agentic orchestration active"
               className="f1-dashboard__image"
               draggable={false}

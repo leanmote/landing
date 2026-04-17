@@ -16,11 +16,7 @@ function SprintTrack() {
   const { t } = useTranslation('landing');
 
   const isWithout = activeId === 'without';
-<<<<<<< HEAD
   const illustrationSrc = isWithout ? import.meta.env.BASE_URL + 'illustrations/without.svg' : import.meta.env.BASE_URL + 'illustrations/with.svg';
-=======
-  const illustrationSrc = isWithout ? withoutSvg : withSvg;
->>>>>>> 9f00185 (feat: set English as default language and import images as module assets)
 
   const stateData = isWithout
     ? { title: t('sprintTrack.without.title'), subtitle: t('sprintTrack.without.subtitle') }
