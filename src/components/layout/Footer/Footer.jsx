@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import leanmoteLogo from '../../../../public/logos/brand/leanmote-logo-white.svg';
 import './Footer.css';
 
 function FooterLink({ href, children }) {

@@ -58,7 +58,12 @@
       "Bash(sed -n '7,15p' /Users/pauobertibusso/Desktop/leanmote/landing/src/pages/CaseStudiesPage/CaseStudiesPage.css)",
       "Bash(sed -n '7,15p' /Users/pauobertibusso/Desktop/leanmote/landing/src/pages/ProductPage/ProductPage.css)",
       "Bash(npx --node-options=\"\" vite build)",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)"
     ]
   }
 }
