@@ -2,6 +2,9 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SubscribeCTA from '../../components/sections/SubscribeCTA/SubscribeCTA.jsx';
+import vitaWalletLogo from '../../../public/logos/clients/vita-wallet.png';
+import gaussLogo from '../../../public/logos/clients/gauss.png';
+import teamcoreLogo from '../../../public/logos/clients/teamcore.png';
 import './CaseStudiesPage.css';
 
 const base = import.meta.env.BASE_URL;

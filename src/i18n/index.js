@@ -38,6 +38,7 @@ i18n
         whofor: esWhofor,
       },
     },
+    lng: 'en',
     fallbackLng: 'en',
     defaultNS: 'common',
     detection: {

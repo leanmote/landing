@@ -1,5 +1,7 @@
 import { useRef } from 'react';
 import SectionTitle from '../../ui/SectionTitle/SectionTitle.jsx';
+import withoutSvg from '../../../../public/illustrations/without.svg';
+import withSvg from '../../../../public/illustrations/with.svg';
 import './F1PrecisionDashboard.css';
 
 function ChevronSplitIcon() {

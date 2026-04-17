@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import SectionTitle from '../../ui/SectionTitle/SectionTitle.jsx';
+import withoutSvg from '../../../../public/illustrations/without.svg';
+import withSvg from '../../../../public/illustrations/with.svg';
 import './SprintTrack.css';
 
 const SPRINT_IDS = ['without', 'with'];
