@@ -52,6 +52,8 @@ function SprintTrack() {
           <SectionTitle as="h2" align="center">
             <span>{t('sprintTrack.title1')}</span>
             <br />
+            <span>{t('sprintTrack.title2')}</span>
+            <br />
             <span className="sprint-track__headline-accent">{t('sprintTrack.titleAccent')}</span>
           </SectionTitle>
           <p className="sprint-track__subtitle">

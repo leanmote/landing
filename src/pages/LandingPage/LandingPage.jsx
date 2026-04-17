@@ -15,7 +15,7 @@ function LandingPage() {
       <ClientLogos />
       <F1Engine />
       <SprintTrack />
-      <F1PrecisionDashboard />
+      {/* <F1PrecisionDashboard /> */}
       <KnowledgeGraph />
       <SecurityIntegrations />
       <SubscribeCTA />
