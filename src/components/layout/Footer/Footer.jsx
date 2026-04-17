@@ -17,7 +17,7 @@ function Footer() {
     <footer className="footer">
       <div className="container footer__inner">
         <div className="footer__brand">
-          <img src="/logos/brand/leanmote-logo-white.svg" alt="Leanmote" />
+          <img src={import.meta.env.BASE_URL + 'logos/brand/leanmote-logo-white.svg'} alt="Leanmote" />
           <p className="footer__tagline">{t('footer.tagline')}</p>
         </div>
 

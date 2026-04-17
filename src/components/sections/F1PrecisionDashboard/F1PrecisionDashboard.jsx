@@ -80,7 +80,7 @@ function F1PrecisionDashboard() {
         <div ref={containerRef} className="f1-dashboard__split">
           <div className="f1-dashboard__pane f1-dashboard__pane--without">
             <img
-              src="/illustrations/without.svg"
+              src={import.meta.env.BASE_URL + 'illustrations/without.svg'}
               alt="Bottleneck Cycle — slow, fragmented delivery"
               className="f1-dashboard__image"
               draggable={false}
@@ -89,7 +89,7 @@ function F1PrecisionDashboard() {
 
           <div className="f1-dashboard__pane f1-dashboard__pane--with">
             <img
-              src="/illustrations/with.svg"
+              src={import.meta.env.BASE_URL + 'illustrations/with.svg'}
               alt="F1 Precision — agentic orchestration active"
               className="f1-dashboard__image"
               draggable={false}

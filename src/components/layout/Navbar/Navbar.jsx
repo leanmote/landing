@@ -58,7 +58,7 @@ function Navbar() {
       <header className={`navbar${scrolled ? ' navbar--scrolled' : ''}`}>
         <div className="navbar__inner">
           <Link className="navbar__brand" to="/" onClick={closeMenu}>
-            <img src="/logos/brand/leanmote-logo-white.svg" alt="Leanmote" />
+            <img src={import.meta.env.BASE_URL + 'logos/brand/leanmote-logo-white.svg'} alt="Leanmote" />
           </Link>
 
           <nav className="navbar__links" aria-label="Primary">
